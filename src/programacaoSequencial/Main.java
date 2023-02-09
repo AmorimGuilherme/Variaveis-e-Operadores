@@ -74,7 +74,7 @@ public class Main {
 
 		double S = Math.pow((B + C), 2);
 
-		System.out.println("VALOR S: " + R);
+		System.out.println("VALOR S: " + S);
 
 		double D = (R + S) / 2;
 
@@ -154,9 +154,8 @@ public class Main {
 		System.out.print("Porcentagem do imposto: ");
 		imposto = scan.nextDouble();
 
-		double precoImpostoCarro = precoFabricaCarro + (precoFabricaCarro + (imposto * 0.01));
-		double precoPercentagemDistribuidor = precoFabricaCarro
-				+ (precoFabricaCarro + (percentagemDistribuidor * 0.01));
+		double precoImpostoCarro = precoFabricaCarro * (imposto * 0.01);
+		double precoPercentagemDistribuidor = precoFabricaCarro * (percentagemDistribuidor * 0.01);
 		precoFinalCarro = precoFabricaCarro + precoPercentagemDistribuidor + precoImpostoCarro;
 
 		System.out.printf("Preço final do carro: R$ %.2f", precoFinalCarro);
