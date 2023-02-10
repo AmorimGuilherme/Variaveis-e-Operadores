@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Main {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 
 		Scanner scan = new Scanner(System.in);
@@ -19,7 +20,7 @@ public class Main {
 		if (num1 > num2) {
 			System.out.println("Intervalo Inválido!");
 		} else {
-			System.out.println("No intervalo entre " + num1 + " e " + num2);
+			System.out.println("No intervalo entre " + num1 + " e " + num2 + " não há multiplos de 3 e 5");
 
 			for (int i = 0; i <= num2; i++) {
 				if (i % 3 == 0 && i % 5 == 0 && i != 0) {
@@ -50,7 +51,7 @@ public class Main {
 		System.out.println("Par: " + somaPar);
 		System.out.println("Impar: " + somaImpar);
 		System.out.println();
-	
+
 		scan.close();
 
 	}
