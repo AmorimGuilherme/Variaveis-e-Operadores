@@ -211,7 +211,7 @@ public class Main {
 			}
 			break;
 		case 3:
-			System.out.print("Valor do Depósito: R$");
+			System.out.print("Valor do Depósito: R$"); 
 			valor = scan.nextFloat();
 			deposito = saldo + valor;
 			System.out.printf("Operação Depósito | Saldo: R$%.2f", deposito);

@@ -122,10 +122,6 @@ public class Main {
 		} else {
 			System.out.println("Digite uma palavra válida!");
 		}
-		
-		// Exercicio 05
-		
-		
 
 		scan.close();
 
