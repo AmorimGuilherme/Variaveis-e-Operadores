@@ -111,6 +111,7 @@ public class Main {
 
 			System.out.println("Deseja Continuar? (S/N)");
 			String escolha = scan.next();
+			
 			if (escolha.equalsIgnoreCase("N") || escolha.equalsIgnoreCase("Nao")) {
 				decisaoContinuar = false;
 			} else if (escolha.equalsIgnoreCase("S") || escolha.equalsIgnoreCase("Sim")) {
