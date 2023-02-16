@@ -76,7 +76,7 @@ public class Main {
 		for (int i = 0; i < notasAlunosAnual.length; i++) {
 			System.out.println();
 			somaNotaAluno = 0;
-			for (int j = 0; j < notasAlunosAnual[bimestre].length; j++) {
+			for (int j = 0; j < 4; j++) {
 				System.out.print("Informe a " + (j + 1) + "ª nota do " + (i + 1) + "º alune: ");
 				double notaAluno = scan.nextDouble();
 				somaNotaAluno += notaAluno;
@@ -85,8 +85,6 @@ public class Main {
 
 			}
 		}
-
-		// for(double[] mediaTurma: notasAlunosAnual) {
 
 		System.out.println("Média dos alunes: " + Arrays.toString(mediasAlunos));
 
