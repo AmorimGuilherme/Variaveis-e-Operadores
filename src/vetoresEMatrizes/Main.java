@@ -64,6 +64,37 @@ public class Main {
 		System.out.println();
 		System.out.println();
 
+		// Exercicio 03
+
+		int[][] matriz = new int[3][3];
+		int[] diagonalPrincipal = new int[3];
+		int[] diagonalSecundaria = new int[3];
+		int somaDiagonalPrincipal = 0;
+		int somaDiagonalSecundaria = 0;
+
+		for (int i = 0; i < matriz.length; i++) {
+			for (int j = 0; j < matriz[i].length; j++) {
+				System.out.printf("Digite o valor da posição (%d , %d):\n", i, j);
+				matriz[i][j] = scan.nextInt();
+				if (i == j) {
+
+					diagonalPrincipal[i] = matriz[i][j];
+					somaDiagonalPrincipal += matriz[i][j];
+				}
+				if ((i + j) == matriz.length - 1) {
+					diagonalSecundaria[i] = matriz[i][j];
+					somaDiagonalSecundaria += matriz[i][j];
+				}
+			}
+		}
+
+		System.out.printf("Elementos da Diagonal Principal: \n %d %d %d\n", diagonalPrincipal[0], diagonalPrincipal[1],
+				diagonalPrincipal[2]);
+		System.out.printf("Elementos da Diagonal Secundária: \n %d %d %d\n", diagonalSecundaria[0],
+				diagonalSecundaria[1], diagonalSecundaria[2]);
+		System.out.println("Soma dos Elementos da Diagonal Principal: " + somaDiagonalPrincipal);
+		System.out.println("Soma dos Elementos da Diagonal Secundária: " + somaDiagonalSecundaria);
+
 		// Exercicio 04
 
 		int aluno = 10;
@@ -76,7 +107,7 @@ public class Main {
 		for (int i = 0; i < notasAlunosAnual.length; i++) {
 			System.out.println();
 			somaNotaAluno = 0;
-			for (int j = 0; j < 4; j++) {
+			for (int j = 0; j < notasAlunosAnual[bimestre].length; j++) {
 				System.out.print("Informe a " + (j + 1) + "ª nota do " + (i + 1) + "º alune: ");
 				double notaAluno = scan.nextDouble();
 				somaNotaAluno += notaAluno;
