@@ -18,4 +18,5 @@
 ## Exercício 06 - Collections (estruturaDeDados)
 [06- Collections ArrayList (estruturaDeDados).pdf](https://github.com/AmorimGuilherme/Variaveis-e-Operadores/files/10762166/06-.Collections.ArrayList.estruturaDeDados.pdf)
 
-## Exercício 07 - Queue e Stack (estruturaDeDados)[07- Collections Queue e Stack (estruturaDeDados).pdf](https://github.com/AmorimGuilherme/Variaveis-e-Operadores/files/10762168/07-.Collections.Queue.e.Stack.estruturaDeDados.pdf)
+## Exercício 07 - Queue e Stack (estruturaDeDados)
+[07- Collections Queue e Stack (estruturaDeDados).pdf](https://github.com/AmorimGuilherme/Variaveis-e-Operadores/files/10762168/07-.Collections.Queue.e.Stack.estruturaDeDados.pdf)
