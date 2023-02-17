@@ -26,11 +26,12 @@ public class Main {
 				System.out.printf("O número %d está localizado no índice %d.", numeroAEncontrar, i);
 			} else {
 				System.out.printf("O número %d não foi encontrado!", numeroAEncontrar);
+				break;
 			}
 
-			System.out.println();
-			System.out.println();
 		}
+		System.out.println();
+		System.out.println();
 
 		// Exercicio 02
 
